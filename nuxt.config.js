@@ -44,5 +44,8 @@ export default {
     */
     extend(config, ctx) {
     }
+  },
+  router: {
+    base: '/takacss/'
   }
 }
