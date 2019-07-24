@@ -20,6 +20,9 @@ export default {
 <style lang="scss" scoped>
 section {
   padding-top: 100px;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #FAFAFA;
 }
 
 .container {
