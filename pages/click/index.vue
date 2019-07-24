@@ -1,10 +1,10 @@
 <template>
   <section>
     <div class="container">
-      <div class="star1" :style="`background:url(${star}) no-repeat center center;`"></div>
-      <div class="star2" :style="`background:url(${star}) no-repeat center center;`"></div>
-      <div class="rocket1" :style="`background:url(${rocket1}) no-repeat 150px center;`"></div>
-      <div class="rocket2" :style="`background:url(${rocket2}) no-repeat 150px center;`"></div>
+      <div class="star1"></div>
+      <div class="star2"></div>
+      <div class="rocket1"></div>
+      <div class="rocket2"></div>
       <div class="text">Click</div>
       <div class="click click1"></div>
       <div class="click click2"></div>
@@ -18,21 +18,10 @@
 </template>
 
 <script>
-import star from "@/assets/images/click/star.png"
-import rocket1 from "@/assets/images/click/rocket1.png"
-import rocket2 from "@/assets/images/click/rocket2.png"
-
 export default {
   head() {
     return {
       title: "Click"
-    }
-  },
-  data() {
-    return {
-      star: star,
-      rocket1: rocket1,
-      rocket2: rocket2
     }
   }
 }
@@ -60,6 +49,7 @@ section {
 
 .star {
   &1 {
+    background:url("../../assets/images/click/star.png") no-repeat center center;
     position:absolute;
     top:0;
     left:0;
@@ -68,6 +58,7 @@ section {
     animation:spin1 3s linear infinite;
   }
   &2 {
+    background:url("../../assets/images/click/star.png") no-repeat center center;
     position:absolute;
     top:0;
     right:0;
@@ -79,6 +70,7 @@ section {
 
 .rocket {
   &1{
+    background:url("../../assets/images/click/rocket1.png") no-repeat 150px center;
     position:absolute;
     top:0;
     left:0;
@@ -88,6 +80,7 @@ section {
     animation:spin2 3s linear infinite;
   }
   &2{
+    background:url("../../assets/images/click/rocket2.png") no-repeat 150px center;
     position:absolute;
     top:0;
     right:0;
