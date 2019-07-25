@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <h1 class="title">TAKACSS</h1>
     <p>TAKACSSはCSSアニメーションが好きな私がこれまで作成したCSSアニメーションなどを紹介するサイトです。</p>
     <ul>
