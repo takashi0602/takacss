@@ -30,8 +30,6 @@ export default {
 <style lang="scss" scoped>
 section {
   background-color: #e74c3c;
-  animation: bg-color 10s infinite;
-  overflow: hidden;
 }
 
 @keyframes bg-color {
@@ -45,6 +43,8 @@ section {
 
 .container {
   position: relative;
+  animation: bg-color 10s infinite;
+  overflow: hidden;
 }
 
 .star {

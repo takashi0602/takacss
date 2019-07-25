@@ -45,11 +45,7 @@ export default {
 
 <style lang="scss" scoped>
 section {
-  height: 100vh;
-  width: 100vw;
-  background-color: #000040;
-  animation: bg-color 20s infinite;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 @keyframes bg-color {
@@ -72,6 +68,10 @@ section {
 
 .container {
   position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #000040;
+  animation: bg-color 20s infinite;
 }
 
 .star {
@@ -81,43 +81,43 @@ section {
   animation: star 20s infinite;
   &1 {
     top:20px;
-    left:50px;
+    left:5%;
   }
   &2 {
     top:170px;
-    left:150px;
+    left:15%;
   }
   &3 {
     top:500px;
-    left:300px;
+    left:30%;
   }
   &4 {
     top:420px;
-    left:420px;
+    left:45%;
   }
   &5 {
     top:270px;
-    left:690px;
+    left:70%;
   }
   &6 {
     top:80px;
-    left:600px;
+    left:60%;
   }
   &7 {
     top:300px;
-    left:800px;
+    left:75%;
   }
   &8 {
     top:160px;
-    left:880px;
+    left:80%;
   }
   &9 {
     top:600px;
-    left:1100px;
+    left:90%;
   }
   &10 {
     top:260px;
-    left:1200px;
+    left:94%;
   }
 }
 
@@ -161,31 +161,31 @@ section {
   animation: cloud 20s infinite;
   &1 {
     top:200px;
-    left:50px;
+    left:5%;
   }
   &2 {
     top:400px;
-    left:240px;
+    left:24%;
   }
   &3 {
     top:120px;
-    left:380px;
+    left:38%;
   }
   &4 {
     top:300px;
-    left:590px;
+    left:59%;
   }
   &5 {
     top:50px;
-    left:800px;
+    left:75%;
   }
   &6 {
     top:480px;
-    left:1000px;
+    left:82%;
   }
   &7 {
     top:220px;
-    left:1200px;
+    left:90%;
   }
 }
 
